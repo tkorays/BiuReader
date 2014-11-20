@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false" 
+    android:background="@drawable/nav_bar"
+    >
+
+    <!-- android:background="#006dc0" -->
+    <TextView
+        android:id="@+id/bookBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/shelf"
+        android:gravity="center"
+        android:focusable="true" 
+        android:text="书架"
+        android:textColor="@drawable/nav_sel"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+       
+        android:clickable="true"
+         />
+
+    <TextView
+        android:id="@+id/bookBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/store"
+        android:gravity="center"
+        android:focusable="true" 
+        android:text="书店"
+        android:textColor="@drawable/nav_sel"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:clickable="true"
+         />
+
+    <TextView
+        android:id="@+id/bookBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/me"
+        android:gravity="center"
+        android:focusable="true" 
+        android:text="我" 
+        android:textColor="@drawable/nav_sel"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/bookBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/history"
+        android:gravity="center"
+        android:focusable="true" 
+        android:text="历史" 
+        android:textColor="@drawable/nav_sel"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:clickable="true"
+        />
+
+</LinearLayout>

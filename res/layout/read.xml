@@ -1,0 +1,41 @@
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:tools="http://schemas.android.com/tools" 
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent"  
+  android:orientation="vertical"
+  tools:context="whu.tkorays.biureader.HomeActivity"
+  > 
+
+	<RelativeLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >  
+    
+    <include
+        android:id="@+id/head"
+        layout="@layout/read_head" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/book_list_inc"
+        android:layout_width="fill_parent"
+    	android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/read_text" />
+
+        <TextView
+            android:id="@+id/path_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        </LinearLayout>
+	
+	</RelativeLayout>
+</LinearLayout>

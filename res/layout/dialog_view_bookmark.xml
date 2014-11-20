@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/view_book_mark_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="@string/this_book_mark" />
+
+    <ListView
+        android:id="@+id/book_mark_list"
+        android:layout_width="240dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/book_mark_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="18dp"
+        android:text="@string/back" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:tools="http://schemas.android.com/tools" 
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent"  
+  android:orientation="vertical"
+  tools:context="whu.tkorays.biureader.HomeActivity"
+  > 
+
+	<RelativeLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >  
+    
+    <include
+        android:id="@+id/head"
+        layout="@layout/head" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/book_list_inc"
+        android:layout_width="fill_parent"
+    	android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:layout_above="@+id/bottom_menu"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="提示"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/holo_red_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/store_error" />
+
+        </LinearLayout>
+	<include 
+	    android:id="@+id/bottom_menu"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        layout="@layout/bottom_nav"
+        android:layout_alignParentBottom="true"
+	    />
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">biuReader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="read_text">
+        我想的是这样，我现在共有3个item，每个item 中有一个button，
+        然后每个button的背景都是一样的，我希望在外边达成什么条件比如i=1或者什么的，然后改掉某一个item中button的背景，
+        而不是在getview()中改，要是在getview()中写，每次进入的时候不就自己就读取了，然后item中button的背景就永远都是那个改过的了。你有办法么
+        
+    </string>
+    <string name="about_us">本软件开发成员有：\n
+* 许剑\n
+* 刘天弋\n
+* 侯深化\n
+\n
+我们不生产代码，我们只是代码的搬运工！\n\n
+©2014   whu.All Right Reserved.\n
+    </string>
+    <string name="store_error">
+商店功能尚未开发，敬请期待~~
+    </string>
+    <string name="this_book_mark">本书书签</string>
+    <string name="back">返回</string>
+    
+</resources>

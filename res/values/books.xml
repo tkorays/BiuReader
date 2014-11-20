@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>The Skite Runner</item>
+        <item>桃花扇</item>
+        <item>古船</item>
+        <item>孟子字义疏证</item>
+        <item>牡丹亭</item>
+        <item>算法导论</item>
+        <item>推荐系统</item>
+        <item>机器学习实战</item>
+        <item>模式分类</item>
+        <item>R语言实战</item>
+        <item>诗词通论</item>
+        <item>什么愿望都没有实现的夏天</item>
+        <item>C++API设计</item>
+        <item>项目管理修炼之道</item>
+    </string-array>
+    <string-array name="books_path">
+        <item>The Skite Runner.txt</item>
+        <item>ths.txt</item>
+        <item>古船.txt</item>
+        <item>mzzysz.txt</item>
+        <item>mdt.txt</item>
+        <item>算法导论.txt</item>
+        <item>推荐系统.txt</item>
+        <item>机器学习实战.txt</item>
+        <item>模式分类.txt</item>
+        <item>R语言实战.txt</item>
+        <item>诗词通论.txt</item>
+        <item>什么愿望都没有实现的夏天.txt</item>
+        <item>C++API设计.txt</item>
+        <item>项目管理修炼之道.txt</item>
+    </string-array>
+</resources>

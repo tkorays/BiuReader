@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fontsizespinner">
+        <item>18</item>
+        <item>20</item>
+        <item>24</item>
+        <item>30</item>
+        <item>32</item>
+    </string-array>
+    <string name="setting_file_name">biu_reader</string>
+    <string name="defaultt_font_size">30</string>
+    <string name="dbname">biu_2015</string>
+</resources>
